@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and give it the value of 'Dane' 
+// Then we set up a conditional statement where the name value must exactly equal Mary. 
+// If the value is exactly equal to Mary, it will console.log 'Hi, Mary!'
+//Otherwise, it will console. log 'How dou do you?'
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called 'secret', giving it no value. We make an additional variable called 'code' and give it the value of 123
+// Then we set up a conditional statement where when the 'code' value is exactly equal to 123, the 'secret' variable will show as 'super' and the 'code' value will show as '123 * 2', or 246.
+// If the 'code' value is greater than 250, the 'secret' variable will show as 'duper'
+//We console.log 'secret'
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make 3 variables: 'isStudent' and set it to the boolean value of true, 'age' and set it to the value of 34, and 'zip' setting it to the value of 55407
+// Then we set up a compound conditional statement where: if the value of 'isStudent' is exactly equal to true AND the 'zip' value is greater than 8000, it will console.log 'You're a student on the West Coast!'
+// Otherwise, if 'isStudent' is exactly equal to the bolean value of false OR the 'age' is less than 30, it will console.log 'What are your hobbies?'
+//Otherwise, if 'isStudent' is exactly equal to the value of true, it will console.log 'Welcome to Prime'. If none of the above situations are true, it will console.log 'How about the weather?'
 
 //CODE
 /*
@@ -129,6 +129,11 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// FIX - colorOne is set to 'red', but the instructions ask to set it to blue. colorTwo is set to 'blue', but the instructions say to set it to red. 
+// Should be let colorOne = 'blue'; and let colorTwo = 'red';
+//FIX - instructions say that if mix is equal to 'true, we would set colorOne AND colorTwo to 'purple'. It currently only shows colorOne so would need to add colorTwo
+// Should be colorTwo = 'purple'; after line 143
+
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -143,6 +148,11 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+//FIX - Instructions says to have two variables. We have one variable and one constant. 
+//Should be let temp = 40; and let time = 4; 
+//FIX - Instructions say to check if 'temp' is higher than 39 AND if time is greater or equal to 4. It is currently set up as an OR statement 
+//Should be (if temp > 39 && time >= 4)
+
 /*
 let temp = 40;
 const time = 4;
@@ -155,6 +165,17 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+
+//FIX - Instructions say to have two variables. We have one variable and one constant. 
+//Should be let age = 21 and let minAge = 21; 
+//FIX - Instructions say to check if 'age' is greater than or equal to minAge, the current code is checking if 'minAge' is less than or equal to 'age'. While that would work, we should adjust so that it matches the instructions. 
+//Should be if(age >= minAge) 
+//FIX - Instructions say that if age is greater than or equal to minAge, we would console.log 'enter'. The current code would console.log 'no entry' 
+//Should be
+// if(age >= minAge) {
+// console.log('enter');
+// } else {
+//  console.log('no entry');
 
 /*
 let age = 21;
