@@ -47,7 +47,7 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We make a variable called 'secret', giving it no value. We make an additional variable called 'code' and give it the value of 123
 // Then we set up a conditional statement where when the 'code' value is exactly equal to 123, the 'secret' variable will show as 'super' and the 'code' value will show as '123 * 2', or 246.
-// If the 'code' value is greater than 250, the 'secret' variable will show as 'duper'
+// Otherwise, if the 'code' value is greater than 250, the 'secret' variable will show as 'duper'
 //We console.log 'secret'
 
 //CODE
@@ -72,8 +72,8 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // We make 3 variables: 'isStudent' and set it to the boolean value of true, 'age' and set it to the value of 34, and 'zip' setting it to the value of 55407
 // Then we set up a compound conditional statement where: if the value of 'isStudent' is exactly equal to true AND the 'zip' value is greater than 8000, it will console.log 'You're a student on the West Coast!'
-// Otherwise, if 'isStudent' is exactly equal to the bolean value of false OR the 'age' is less than 30, it will console.log 'What are your hobbies?'
-//Otherwise, if 'isStudent' is exactly equal to the value of true, it will console.log 'Welcome to Prime'. If none of the above situations are true, it will console.log 'How about the weather?'
+// Otherwise, if 'isStudent' is exactly equal to the boolean value of false OR the 'age' is less than 30, it will console.log 'What are your hobbies?'
+// Otherwise, if 'isStudent' is exactly equal to the value of true, it will console.log 'Welcome to Prime'. If none of the above situations are true, it will console.log 'How about the weather?'
 
 //CODE
 /*
